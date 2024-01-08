@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="modules/main.scss">
+</head>
+<body>
+    <div class="app" id="chess-app"></div>
+    <div class="app-block app-window">
+        <div class="log-block">
+            <ul class="log-list">
+                <li><p class="log-timestamp">00:12</p><p class="log-action">♙E2→E4</p></li>
+                <li><p class="log-timestamp">01:05</p><p class="log-action">♙D7→D5</p></li>
+            </ul>
+        </div>
+        <div class="game-block game">
+            <ul class="chessboard">
+                <!-- li elements will generate -->
+                <li class="chessboard-label">8</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li class="chessboard-label">7</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li class="chessboard-label">6</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li class="chessboard-label">5</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li class="chessboard-label">4</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li class="chessboard-label">3</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li class="chessboard-label">2</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li class="chessboard-label">1</li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+                <li class="chessboard-label"></li>
+                <li class="chessboard-label">a</li>
+                <li class="chessboard-label">b</li>
+                <li class="chessboard-label">c</li>
+                <li class="chessboard-label">d</li>
+                <li class="chessboard-label">e</li>
+                <li class="chessboard-label">f</li>
+                <li class="chessboard-label">g</li>
+                <li class="chessboard-label">h</li>
+            </ul>
+        </div>
+        <div class="chat-block chat"></div>
+    </div>
+    <script type="module" src="src/app.ts"></script>
+</body>
+</html>

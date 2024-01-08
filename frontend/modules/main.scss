@@ -1,0 +1,22 @@
+@import "dev-mode";
+@import "variables";
+@import "app-window/index";
+@import "log/log";
+@import "game/game";
+@import "chat/chat";
+
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background: linear-gradient(180deg, $bg-gradient-start 0%, $bg-gradient-end 100%);
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+}
+
+

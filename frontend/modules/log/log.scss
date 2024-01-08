@@ -1,0 +1,37 @@
+.log-block {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+  background: #D9D9D9;
+  width: 160px;
+  height: 100%;
+
+  list-style: none;
+
+  & li {
+    display: flex;
+    padding: 0 5px;
+    margin: 0;
+
+    font-size: 12px;
+
+    & .log-timestamp {
+      margin: 0;
+      padding: 3px 0;
+      margin-right: 10px;
+    }
+
+    & .log-action {
+      margin: 0;
+      padding: 3px 0;
+    }
+  }
+}
