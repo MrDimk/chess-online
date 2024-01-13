@@ -3,10 +3,12 @@
 }
 
 .game {
+  display: flex;
 
+  justify-content: center;
+  align-items: center;
 }
 
-/* Define the chessboard container */
 .chessboard {
   display: grid;
   grid-template-columns: 15px repeat(8, 1fr);
@@ -14,9 +16,8 @@
 
   margin: 0;
   padding: 0;
-
-  width: 300px; /* Adjust the width as needed */
-  height: 300px; /* Adjust the height as needed */
+  width: 350px;
+  height: 350px;
 
   list-style: none;
 }
@@ -26,6 +27,15 @@
   padding: 0;
 
   background-color: #CFFFEB;
+  font-size: 12px;
+
+  &.row-label {
+    padding-top: 12px;
+  }
+
+  &.column-label {
+    padding-top: 5px;
+  }
 }
 
 .chessboard li:nth-child(2n-1) {
@@ -37,4 +47,3 @@
   text-align: center;
   vertical-align: middle;
 }
-

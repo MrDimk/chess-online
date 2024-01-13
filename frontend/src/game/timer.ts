@@ -7,7 +7,9 @@ export class Timer {
 
     constructor() {}
 
-    start() {}
+    start() {
+
+    }
 
     switchTimer() {}
 
